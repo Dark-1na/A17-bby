@@ -8,15 +8,15 @@ global.autoReadAll = process.env.AUTO_READ_ALL || false;
 global.antitags = process.env.ANTITAGS || true;
 
 // Auto functioner
-global.autoTyping = process.env.AUTO_TYPING || false;
-global.autoRecord = process.env.AUTO_RECORD || false;
+global.autoTyping = process.env.AUTO_TYPING || true;
+global.autoRecord = process.env.AUTO_RECORD || true;
 global.groupevent = process.env.GROUPEVENT || false;
-global.statusseen = process.env.STATUSSEEN || true;
+global.statusseen = process.env.STATUSSEEN || false;
 global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "919002162806";                         // Add your paining number with country code example "916297175943"; 
+global.pairNumber = "2347042294253";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
@@ -26,7 +26,7 @@ global.github = "https://github.com/Kai0071";
 
 
 // Default prefix
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
+global.prefa = process.env.PREFIX ? process.env.PREFIX.split("*") : ["*"];
 
 
 // Owner information
@@ -80,11 +80,11 @@ global.ntilink = []
 
 // Messages
 global.mess = {
-  jobdone: 'Here you go...',
+  jobdone: 'Here you go domino ...',
   useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
   botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-  botowner: 'Only my *Owner* can use this command, Baka!',
-  grouponly: 'This command is only made for *Groups*, Baka!',
+  botowner: 'Only my *Owner* can use this command, animal!',
+  grouponly: 'This command is only made for *Groups*, Domino!',
   privateonly: 'This command is only made for *Private Chat*, Baka!',
   botonly: 'Only the *Bot itself* can use this command!',
   waiting: 'Just Wait...',
